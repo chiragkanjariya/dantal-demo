@@ -1,899 +1,1159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>DentaCare - Free Bootstrap 4 Template by Pixxydev</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prof. Dr. Tarun Kumar — Implant Surgeon, Educator &amp; Online Implant Academy</title>
+<meta name="description" content="Prof. Dr. Tarun Kumar, MDS, Board-certified Diplomate. Dental implants and full-mouth rehabilitation for patients, hands-on implant courses for dentists, and online implantology courses you can take from anywhere.">
+<meta name="theme-color" content="#167D8D">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<!-- ===================================================================
+     CONTENT NOTES (remove before launch)
+     - Course names, prices, dates and module counts are PLACEHOLDERS —
+       confirm with Dr. Tarun before going live.
+     - Dentist testimonials are SAMPLE copy. Replace with real quotes
+       (with permission) from course participants.
+     - Phone / WhatsApp number is the placeholder from the old site.
+     - Media in /media was cut from the supplied course & clinic footage.
+     =================================================================== -->
 
-    <link rel="stylesheet" href="css/aos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sacramento&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+<style>
+/* ================= tokens (from brand sheet) ================= */
+:root{
+  --primary:#167D8D;
+  --primary-dk:#0F5F6B;
+  --primary-xdk:#0B4851;
+  --light-blue:#B8E3E8;
+  --light-blue-2:#DDF1F3;
+  --bg:#F4FBFC;
+  --white:#FFFFFF;
+  --text:#203238;
+  --text-2:#4A5D63;
+  --text-3:#71858A;
+  --accent:#F0B67F;
+  --accent-dk:#B9773A;
+  --accent-lt:#FCEBDA;
+  --rule:rgba(32,50,56,.10);
+  --rule-2:rgba(32,50,56,.16);
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+  --sans:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --script:"Sacramento",cursive;
 
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Denta<span>Care</span></a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+  --r-sm:10px;
+  --r:16px;
+  --r-lg:24px;
+  --r-xl:32px;
+  --shadow-sm:0 1px 2px rgba(22,125,141,.06),0 2px 8px rgba(32,50,56,.05);
+  --shadow:0 2px 6px rgba(22,125,141,.06),0 12px 32px -8px rgba(32,50,56,.12);
+  --shadow-lg:0 30px 60px -20px rgba(15,95,107,.28);
+  --wrap:1200px;
+  --gutter:clamp(16px,4vw,40px);
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	          <li class="nav-item"><a href="doctors.html" class="nav-link">Doctors</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	          <li class="nav-item cta"><a href="contact.html" class="nav-link" data-toggle="modal" data-target="#modalRequest"><span>Make an Appointment</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
+h1,h2,h3,h4{margin:0;line-height:1.12;letter-spacing:-.025em;font-weight:700;color:var(--text)}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--primary);outline-offset:3px;border-radius:6px}
+::selection{background:var(--light-blue)}
 
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/bg_1.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center" data-scrollax-parent="true">
-            <div class="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Modern Dentistry in a Calm and Relaxed Environment</h1>
-              <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Make an Appointment</a></p>
-            </div>
-          </div>
-        </div>
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+.section{padding:clamp(72px,10vw,128px) 0}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--primary)}
+.eyebrow::before{content:"";width:28px;height:1.5px;background:currentColor;opacity:.6}
+.eyebrow.center::after{content:"";width:28px;height:1.5px;background:currentColor;opacity:.6}
+.h2{font-size:clamp(32px,4.6vw,52px);margin-top:16px}
+.h2 em{font-style:normal;color:var(--primary)}
+.lede{font-size:clamp(16px,1.6vw,18px);color:var(--text-2);max-width:620px;margin-top:18px}
+.script{font-family:var(--script);font-weight:400;color:var(--primary);letter-spacing:0;line-height:1}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:clamp(36px,5vw,56px)}
+.head > div{flex:1 1 520px;max-width:760px}.head > .btn,.head > .tabs{flex:none}
+.head.center{flex-direction:column;align-items:center;text-align:center}
+.head.center .lede{margin-left:auto;margin-right:auto}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:52px;padding:0 26px;border-radius:999px;font-weight:600;font-size:15px;transition:transform .25s var(--ease),background .25s,box-shadow .25s,color .25s;white-space:nowrap}
+.btn svg{width:18px;height:18px;transition:transform .25s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+.btn-primary{background:var(--primary);color:#fff;box-shadow:0 8px 20px -8px rgba(22,125,141,.6)}
+.btn-primary:hover{background:var(--primary-dk);transform:translateY(-1px)}
+.btn-accent{background:var(--accent);color:#3b2410;box-shadow:0 8px 20px -8px rgba(240,182,127,.8)}
+.btn-accent:hover{background:#ECA766;transform:translateY(-1px)}
+.btn-ghost{background:var(--white);color:var(--text);box-shadow:inset 0 0 0 1px var(--rule-2)}
+.btn-ghost:hover{box-shadow:inset 0 0 0 1px var(--primary);color:var(--primary)}
+.btn-sm{height:42px;padding:0 18px;font-size:14px}
+.link-arrow{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--primary);font-size:15px}
+.link-arrow svg{width:16px;height:16px;transition:transform .25s var(--ease)}
+.link-arrow:hover svg{transform:translateX(4px)}
+
+.pill{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.02em;background:var(--light-blue-2);color:var(--primary-dk)}
+.pill.accent{background:var(--accent-lt);color:var(--accent-dk)}
+.pill.dark{background:rgba(255,255,255,.14);color:#fff}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+.dot.live{background:#E0614F;box-shadow:0 0 0 0 rgba(224,97,79,.5);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(224,97,79,0)}100%{box-shadow:0 0 0 0 rgba(224,97,79,0)}}
+
+/* ================= announcement + nav ================= */
+.announce{background:var(--primary-xdk);color:#E6F5F7;font-size:13.5px;text-align:center;padding:10px var(--gutter)}
+.announce a{color:var(--accent);font-weight:600;margin-left:6px;white-space:nowrap}
+.announce a:hover{text-decoration:underline}
+
+.nav{position:sticky;top:0;z-index:50;background:rgba(244,251,252,.82);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;transition:border-color .3s,background .3s}
+.nav.scrolled{border-color:var(--rule);background:rgba(255,255,255,.9)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{width:42px;height:42px;border-radius:12px;background:var(--primary);display:grid;place-items:center;color:#fff;flex:none}
+.brand-mark svg{width:24px;height:24px}
+.brand-name{white-space:nowrap;font-weight:700;font-size:16.5px;letter-spacing:-.01em;line-height:1.15}
+.brand-name small{display:block;font-size:10.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text-3)}
+.nav-links{display:flex;align-items:center;gap:4px}
+.nav-links a{white-space:nowrap;padding:8px 14px;border-radius:999px;font-size:14.5px;font-weight:500;color:var(--text-2);transition:color .2s,background .2s}
+.nav-links a:hover{color:var(--primary);background:var(--light-blue-2)}
+.nav-links a .new{font-size:9.5px;font-weight:700;letter-spacing:.08em;background:var(--accent);color:#3b2410;padding:2px 6px;border-radius:6px;margin-left:6px;vertical-align:2px}
+.nav-cta{display:flex;gap:10px;align-items:center}
+.burger{display:none;width:44px;height:44px;border-radius:12px;align-items:center;justify-content:center;background:var(--white);box-shadow:inset 0 0 0 1px var(--rule-2)}
+.burger svg{width:22px;height:22px}
+.mobile-menu{display:none}
+
+/* ================= hero ================= */
+.hero{position:relative;padding:clamp(40px,6vw,80px) 0 clamp(56px,7vw,96px);overflow:hidden}
+.hero::before{content:"";position:absolute;width:780px;height:780px;border-radius:50%;background:radial-gradient(circle,rgba(184,227,232,.7),rgba(184,227,232,0) 70%);top:-320px;left:-260px;pointer-events:none}
+.hero::after{content:"";position:absolute;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(240,182,127,.22),rgba(240,182,127,0) 70%);bottom:-260px;right:-160px;pointer-events:none}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,5vw,72px);align-items:center}
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.hero h1{font-size:clamp(40px,6.2vw,74px);line-height:1.02;letter-spacing:-.04em;font-weight:800}
+.hero h1 .hl{color:var(--primary);position:relative;white-space:nowrap}
+.hero h1 .hl::after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.16em;background:var(--accent);opacity:.45;border-radius:4px;z-index:-1}
+.hero-sub{font-size:clamp(16px,1.7vw,19px);color:var(--text-2);margin-top:22px;max-width:560px}
+
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:34px;max-width:600px}
+.path{position:relative;display:flex;flex-direction:column;gap:6px;padding:20px 20px 18px;border-radius:var(--r-lg);background:var(--white);box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule);transition:transform .3s var(--ease),box-shadow .3s}
+.path:hover{transform:translateY(-3px);box-shadow:var(--shadow),inset 0 0 0 1.5px var(--primary)}
+.path .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--light-blue-2);color:var(--primary);margin-bottom:6px}
+.path.dentist .ic{background:var(--accent-lt);color:var(--accent-dk)}
+.path .ic svg{width:22px;height:22px}
+.path small{font-size:11.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--text-3)}
+.path strong{font-size:17px;font-weight:700;line-height:1.3}
+.path .go{position:absolute;top:18px;right:18px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--bg);color:var(--primary);transition:background .25s,color .25s}
+.path:hover .go{background:var(--primary);color:#fff}
+.path .go svg{width:16px;height:16px}
+
+.trust-row{display:flex;align-items:center;gap:16px;margin-top:30px;flex-wrap:wrap}
+.avatars{display:flex}
+.avatars span{width:36px;height:36px;border-radius:50%;border:2.5px solid var(--bg);margin-left:-10px;display:grid;place-items:center;font-size:12px;font-weight:700;color:#fff}
+.avatars span:first-child{margin-left:0}
+.trust-row p{font-size:14px;color:var(--text-2);line-height:1.4}
+.trust-row strong{color:var(--text)}
+.stars{color:var(--accent-dk);letter-spacing:2px;font-size:13px}
+
+.hero-visual{position:relative;justify-self:end;width:100%;max-width:480px}
+.hero-frame{position:relative;border-radius:var(--r-xl);overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow-lg);background:var(--light-blue)}
+.hero-frame video,.hero-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.hero-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,72,81,0) 55%,rgba(11,72,81,.75));pointer-events:none}
+.hero-caption{position:absolute;left:22px;right:22px;bottom:20px;z-index:2;color:#fff}
+.hero-caption .pill{margin-bottom:10px}
+.hero-caption p{font-weight:600;font-size:15px;line-height:1.35}
+.hero-caption p span{display:block;font-weight:400;opacity:.8;font-size:13px}
+.float-card{position:absolute;z-index:3;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-radius:var(--r);box-shadow:var(--shadow);padding:14px 16px;display:flex;align-items:center;gap:12px}
+.float-card .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;flex:none}
+.float-card .ic svg{width:20px;height:20px}
+.float-card b{display:block;font-size:20px;line-height:1.1;letter-spacing:-.02em}
+.float-card small{font-size:12px;color:var(--text-2);line-height:1.3;display:block}
+.fc-1{top:34px;left:-48px;animation:bob 6s ease-in-out infinite}
+.fc-1 .ic{background:var(--light-blue-2);color:var(--primary)}
+.fc-2{top:44%;right:-36px;animation:bob 6s ease-in-out -3s infinite}
+.fc-2 .ic{background:var(--accent-lt);color:var(--accent-dk)}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.hero-script{position:absolute;bottom:-34px;left:-40px;z-index:3;font-size:46px;transform:rotate(-8deg);color:var(--primary)}
+
+/* ================= stats ================= */
+.stats{margin-top:-8px}
+.stats-card{background:var(--white);border-radius:var(--r-xl);box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule);display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:30px 28px;position:relative}
+.stat + .stat::before{content:"";position:absolute;left:0;top:28px;bottom:28px;width:1px;background:var(--rule)}
+.stat b{display:block;font-size:clamp(30px,3.6vw,42px);font-weight:800;letter-spacing:-.04em;color:var(--primary);line-height:1}
+.stat span{display:block;margin-top:8px;font-size:14px;color:var(--text-2);line-height:1.4}
+
+.marquee{margin-top:40px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.marquee-track{display:flex;gap:44px;width:max-content;animation:marq 40s linear infinite}
+.marquee span{display:inline-flex;align-items:center;gap:44px;font-size:12.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text-3);white-space:nowrap}
+.marquee span::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--light-blue)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ================= two worlds ================= */
+.worlds{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.world{position:relative;border-radius:var(--r-xl);overflow:hidden;min-height:520px;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(26px,3vw,40px);color:#fff;isolation:isolate}
+.world img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1.2s var(--ease)}
+.world:hover img{transform:scale(1.04)}
+.world::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(11,72,81,.05) 20%,rgba(11,72,81,.92) 78%)}
+.world.academy::before{background:linear-gradient(180deg,rgba(32,50,56,.05) 20%,rgba(32,50,56,.94) 78%)}
+.world .pill{align-self:flex-start;margin-bottom:auto}
+.world h3{color:#fff;font-size:clamp(26px,3vw,36px);margin-top:16px}
+.world p{opacity:.85;margin-top:10px;max-width:440px}
+.world ul{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.world li{font-size:13px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.12);backdrop-filter:blur(6px);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18)}
+.world .btn{margin-top:26px;align-self:flex-start}
+
+/* ================= patients ================= */
+.treat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.treat{background:var(--white);border-radius:var(--r-lg);padding:28px 24px;box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule);display:flex;flex-direction:column;transition:transform .3s var(--ease),box-shadow .3s}
+.treat:hover{transform:translateY(-4px);box-shadow:var(--shadow),inset 0 0 0 1px var(--light-blue)}
+.treat .num{font-size:13px;font-weight:700;color:var(--text-3);letter-spacing:.1em}
+.treat .ic{width:52px;height:52px;border-radius:16px;background:var(--light-blue-2);color:var(--primary);display:grid;place-items:center;margin:18px 0 20px}
+.treat .ic svg{width:28px;height:28px}
+.treat h3{font-size:19px}
+.treat p{font-size:14.5px;color:var(--text-2);margin-top:10px;flex:1}
+.treat .time{margin-top:20px;padding-top:16px;border-top:1px dashed var(--rule-2);display:flex;justify-content:space-between;font-size:13px;color:var(--text-3)}
+.treat .time b{color:var(--primary);font-weight:700}
+
+.visit{margin-top:clamp(48px,6vw,72px);display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,4vw,56px);align-items:stretch;background:var(--white);border-radius:var(--r-xl);padding:clamp(24px,4vw,48px);box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule)}
+.visit-media{position:relative;border-radius:var(--r-lg);overflow:hidden;min-height:300px;background:var(--light-blue)}
+.visit-media img{width:100%;height:100%;object-fit:cover}
+.visit-media .tag{position:absolute;left:16px;bottom:16px}
+.visit h3{font-size:clamp(24px,2.6vw,32px)}
+.steps{margin-top:24px;display:grid;gap:4px}
+.step{display:grid;grid-template-columns:44px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.step:last-child{border-bottom:0}
+.step i{font-style:normal;width:36px;height:36px;border-radius:50%;background:var(--light-blue-2);color:var(--primary);display:grid;place-items:center;font-weight:700;font-size:14px}
+.step b{display:block;font-size:16px}
+.step span{font-size:14.5px;color:var(--text-2)}
+
+/* ================= academy ================= */
+.academy-sec{background:linear-gradient(180deg,var(--bg),#E9F6F8 40%,var(--bg))}
+.handson{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(28px,4vw,64px);align-items:center}
+.collage{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:14px}
+.collage figure{margin:0;border-radius:var(--r-lg);overflow:hidden;background:var(--light-blue);box-shadow:var(--shadow-sm)}
+.collage figure img,.collage figure video{width:100%;height:100%;object-fit:cover}
+.collage .c1{grid-row:span 2;aspect-ratio:9/15}
+.collage .c2{aspect-ratio:4/3.4}
+.collage .c3{aspect-ratio:4/3.4}
+.loc-badge{position:absolute;left:-14px;bottom:28px;background:var(--white);border-radius:var(--r);box-shadow:var(--shadow);padding:12px 16px;display:flex;gap:10px;align-items:center;font-size:13.5px}
+.loc-badge svg{width:20px;height:20px;color:var(--accent-dk)}
+.loc-badge b{display:block;font-size:14.5px}
+.checks{display:grid;gap:14px;margin-top:28px}
+.checks li{display:grid;grid-template-columns:26px 1fr;gap:12px;font-size:15.5px;color:var(--text-2)}
+.checks li b{color:var(--text);font-weight:600}
+.checks svg{width:22px;height:22px;color:var(--primary);margin-top:2px}
+.handson .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+
+/* ================= online courses ================= */
+.online-head{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:end;margin-bottom:40px}
+.filters{display:inline-flex;gap:6px;padding:6px;background:var(--white);border-radius:999px;box-shadow:inset 0 0 0 1px var(--rule);justify-self:end;flex-wrap:wrap}
+.filters button{height:38px;padding:0 16px;border-radius:999px;font-size:14px;font-weight:600;color:var(--text-2);transition:background .2s,color .2s}
+.filters button[aria-pressed="true"]{background:var(--primary);color:#fff}
+.filters button:not([aria-pressed="true"]):hover{background:var(--light-blue-2);color:var(--primary)}
+
+.featured{display:grid;grid-template-columns:1.1fr .9fr;background:var(--text);color:#fff;border-radius:var(--r-xl);overflow:hidden;margin-bottom:24px;box-shadow:var(--shadow-lg)}
+.featured-media{position:relative;min-height:420px;background:#0d1a1e}
+.featured-media video,.featured-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.9}
+.featured-media::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,50,56,0) 60%,rgba(32,50,56,1));pointer-events:none}
+.play{position:absolute;left:28px;bottom:28px;z-index:2;display:flex;align-items:center;gap:12px;color:#fff;font-weight:600;font-size:14px}
+.play i{width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.18);backdrop-filter:blur(8px);display:grid;place-items:center;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35);transition:background .25s}
+.play:hover i{background:var(--accent)}
+.play svg{width:20px;height:20px}
+.featured-body{padding:clamp(28px,3.5vw,48px);display:flex;flex-direction:column}
+.featured-body h3{color:#fff;font-size:clamp(26px,2.8vw,34px);margin-top:18px}
+.featured-body > p{color:rgba(255,255,255,.75);margin-top:12px;font-size:15.5px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px;font-size:13.5px;color:rgba(255,255,255,.8)}
+.meta span{display:inline-flex;align-items:center;gap:7px}
+.meta svg{width:16px;height:16px;color:var(--light-blue)}
+.modules{margin-top:24px;border-top:1px solid rgba(255,255,255,.12)}
+.modules li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:14.5px}
+.modules li span{color:rgba(255,255,255,.55);font-size:13px;white-space:nowrap}
+.price-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:auto;padding-top:28px;flex-wrap:wrap}
+.price b{font-size:32px;font-weight:800;letter-spacing:-.03em}
+.price s{color:rgba(255,255,255,.45);margin-left:8px;font-size:16px}
+.price small{display:block;font-size:12.5px;color:var(--accent);font-weight:600}
+
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.course{background:var(--white);border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule);display:flex;flex-direction:column;transition:transform .3s var(--ease),box-shadow .3s,opacity .3s}
+.course:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.course[hidden]{display:none}
+.course-thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--light-blue)}
+.course-thumb img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}
+.course:hover .course-thumb img{transform:scale(1.05)}
+.course-thumb .pill{position:absolute;top:14px;left:14px;background:rgba(255,255,255,.94)}
+.course-thumb .lvl{position:absolute;top:14px;right:14px;background:rgba(32,50,56,.75);color:#fff;font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:999px;backdrop-filter:blur(6px)}
+.course-thumb.art{display:grid;place-items:center}
+.course-thumb.art svg{width:100%;height:100%}
+.course-body{padding:22px 22px 20px;display:flex;flex-direction:column;flex:1}
+.course-body h3{font-size:19px;line-height:1.25}
+.course-body p{font-size:14.5px;color:var(--text-2);margin-top:8px;flex:1}
+.course-meta{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px;font-size:13px;color:var(--text-3)}
+.course-meta span{display:inline-flex;align-items:center;gap:6px}
+.course-meta svg{width:15px;height:15px;color:var(--primary)}
+.course-foot{display:flex;justify-content:space-between;align-items:center;margin-top:18px;padding-top:16px;border-top:1px solid var(--rule)}
+.course-foot b{font-size:20px;letter-spacing:-.02em}
+.course-foot b small{font-size:12px;font-weight:500;color:var(--text-3);margin-left:4px;letter-spacing:0}
+
+.perks{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:clamp(48px,6vw,72px)}
+.perk{padding:24px;border-radius:var(--r-lg);background:rgba(255,255,255,.6);box-shadow:inset 0 0 0 1px var(--rule)}
+.perk .ic{width:44px;height:44px;border-radius:14px;background:var(--white);color:var(--primary);display:grid;place-items:center;box-shadow:var(--shadow-sm)}
+.perk .ic svg{width:22px;height:22px}
+.perk b{display:block;margin-top:16px;font-size:16px}
+.perk span{display:block;font-size:14px;color:var(--text-2);margin-top:6px}
+
+/* ================= about ================= */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(32px,5vw,80px);align-items:center}
+.about-photo{position:relative}
+.about-photo .frame{border-radius:var(--r-xl);overflow:hidden;aspect-ratio:4/5;background:var(--light-blue);box-shadow:var(--shadow-lg)}
+.about-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.about-photo .sig{position:absolute;right:-16px;bottom:24px;background:var(--white);border-radius:var(--r);padding:14px 22px 10px;box-shadow:var(--shadow);font-size:40px;transform:rotate(-4deg)}
+.about blockquote{margin:22px 0 0;font-size:clamp(20px,2.2vw,26px);font-weight:600;line-height:1.35;letter-spacing:-.015em;color:var(--text);padding-left:20px;border-left:3px solid var(--accent)}
+.about .lede{max-width:none}
+.creds{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.cred{display:flex;gap:14px;align-items:flex-start;padding:16px;border-radius:var(--r);background:var(--white);box-shadow:inset 0 0 0 1px var(--rule)}
+.cred .ic{width:38px;height:38px;border-radius:11px;background:var(--light-blue-2);color:var(--primary);display:grid;place-items:center;flex:none}
+.cred .ic svg{width:20px;height:20px}
+.cred b{display:block;font-size:15px;line-height:1.3}
+.cred span{font-size:13px;color:var(--text-2);line-height:1.4;display:block;margin-top:2px}
+
+/* ================= testimonials ================= */
+.tabs{display:inline-flex;gap:6px;padding:6px;background:var(--white);border-radius:999px;box-shadow:inset 0 0 0 1px var(--rule)}
+.tabs button{height:40px;padding:0 20px;border-radius:999px;font-weight:600;font-size:14px;color:var(--text-2);transition:background .2s,color .2s}
+.tabs button[aria-selected="true"]{background:var(--primary);color:#fff}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.quotes[hidden]{display:none}
+.quote{margin:0;background:var(--white);border-radius:var(--r-lg);padding:28px;box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule);display:flex;flex-direction:column}
+.quote .q{font-size:56px;line-height:.6;color:var(--light-blue);font-weight:800;height:26px}
+.quote p{font-size:15.5px;color:var(--text);flex:1}
+.quote footer{display:flex;align-items:center;gap:12px;margin-top:24px;padding-top:18px;border-top:1px solid var(--rule)}
+.quote .av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:14px;flex:none}
+.quote footer b{display:block;font-size:15px}
+.quote footer span{font-size:13px;color:var(--text-3)}
+
+/* ================= instagram ================= */
+.insta{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center;background:var(--white);border-radius:var(--r-xl);padding:clamp(24px,4vw,48px);box-shadow:var(--shadow-sm),inset 0 0 0 1px var(--rule)}
+.insta-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.insta-grid a{position:relative;aspect-ratio:1;border-radius:14px;overflow:hidden;background:var(--light-blue)}
+.insta-grid img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.insta-grid a:hover img{transform:scale(1.08)}
+.insta-grid a::after{content:"";position:absolute;inset:0;background:rgba(22,125,141,0);transition:background .3s}
+.insta-grid a:hover::after{background:rgba(22,125,141,.25)}
+.insta .handle{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:18px;margin-top:18px}
+.insta .handle svg{width:22px;height:22px;color:var(--primary)}
+
+/* ================= faq ================= */
+.faq-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,5vw,72px);align-items:start}
+.faq-side{position:sticky;top:110px}
+.faq-side .tabs{margin-top:28px}
+.faq-help{margin-top:28px;padding:22px;border-radius:var(--r-lg);background:var(--light-blue-2)}
+.faq-help b{display:block}
+.faq-help p{font-size:14.5px;color:var(--text-2);margin:6px 0 14px}
+.faq-list[hidden]{display:none}
+details{border-bottom:1px solid var(--rule-2)}
+details:first-child{border-top:1px solid var(--rule-2)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-weight:600;font-size:17px}
+summary::-webkit-details-marker{display:none}
+summary .pm{width:34px;height:34px;border-radius:50%;flex:none;display:grid;place-items:center;background:var(--white);box-shadow:inset 0 0 0 1px var(--rule-2);color:var(--primary);transition:transform .3s var(--ease),background .3s}
+summary .pm svg{width:16px;height:16px}
+details[open] summary .pm{transform:rotate(45deg);background:var(--primary);color:#fff;box-shadow:none}
+details p{padding:0 50px 24px 0;color:var(--text-2);font-size:15.5px}
+
+/* ================= waitlist ================= */
+.cta-band{position:relative;overflow:hidden;border-radius:var(--r-xl);background:linear-gradient(135deg,var(--primary),var(--primary-xdk));color:#fff;padding:clamp(36px,5vw,64px);display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.cta-band::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;border:1px solid rgba(255,255,255,.12);right:-160px;top:-200px}
+.cta-band::after{content:"";position:absolute;width:340px;height:340px;border-radius:50%;border:1px solid rgba(255,255,255,.12);right:-60px;top:-100px}
+.cta-band h2{color:#fff;font-size:clamp(30px,3.8vw,46px)}
+.cta-band h2 .script{color:var(--accent);font-size:1.25em;display:inline-block;transform:translateY(.08em)}
+.cta-band p{color:rgba(255,255,255,.8);margin-top:14px;max-width:520px}
+.cta-band > *{min-width:0}
+.wl-form{position:relative;z-index:1;display:grid;gap:12px}
+.wl-form .row{display:flex;gap:10px;background:rgba(255,255,255,.12);border-radius:999px;padding:6px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}
+.wl-form input{flex:1;min-width:0;height:48px;border:0;background:transparent;color:#fff;font:inherit;font-size:15px;padding:0 18px;outline:none}
+.wl-form input::placeholder{color:rgba(255,255,255,.6)}
+.wl-form small{color:rgba(255,255,255,.65);font-size:13px;padding-left:18px}
+.wl-ok{display:none;padding:14px 18px;border-radius:var(--r);background:rgba(255,255,255,.14);font-weight:600}
+.wl-form.done .row,.wl-form.done small{display:none}
+.wl-form.done .wl-ok{display:block}
+
+/* ================= contact ================= */
+.contact{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,4vw,56px);align-items:start}
+.contact-info{display:grid;gap:14px;margin-top:30px}
+.ci{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;padding:16px;border-radius:var(--r);background:var(--white);box-shadow:inset 0 0 0 1px var(--rule)}
+.ci .ic{width:44px;height:44px;border-radius:12px;background:var(--light-blue-2);color:var(--primary);display:grid;place-items:center}
+.ci .ic svg{width:20px;height:20px}
+.ci small{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3)}
+.ci b{display:block;font-weight:600;font-size:15px;line-height:1.45}
+.ci a:hover{color:var(--primary)}
+.form-card{background:var(--white);border-radius:var(--r-xl);padding:clamp(24px,3.5vw,40px);box-shadow:var(--shadow)}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px;background:var(--bg);border-radius:999px;margin-bottom:26px}
+.seg button{height:44px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--text-2);transition:background .2s,color .2s,box-shadow .2s}
+.seg button[aria-pressed="true"]{background:var(--white);color:var(--primary);box-shadow:var(--shadow-sm)}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:grid;gap:7px}
+.field.full{grid-column:1/-1}
+.field label{font-size:13px;font-weight:600;color:var(--text-2)}
+.field input,.field select,.field textarea{width:100%;height:50px;padding:0 16px;border-radius:12px;border:1px solid var(--rule-2);background:var(--bg);font:inherit;font-size:15px;color:var(--text);transition:border-color .2s,background .2s,box-shadow .2s;appearance:none;-webkit-appearance:none}
+.field select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23167D8D' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:18px;padding-right:40px}
+.field textarea{height:110px;padding:14px 16px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--primary);background:var(--white);box-shadow:0 0 0 4px rgba(22,125,141,.12)}
+.form-card .btn{width:100%;margin-top:22px}
+.form-note{font-size:13px;color:var(--text-3);text-align:center;margin-top:12px}
+.form-ok{display:none;text-align:center;padding:40px 10px}
+.form-ok .ic{width:64px;height:64px;border-radius:50%;background:var(--light-blue-2);color:var(--primary);display:grid;place-items:center;margin:0 auto 18px}
+.form-ok .ic svg{width:30px;height:30px}
+.form-card.done form{display:none}
+.form-card.done .form-ok{display:block}
+
+/* ================= footer ================= */
+footer.site{background:var(--text);color:rgba(255,255,255,.72);padding:72px 0 32px;margin-top:clamp(72px,10vw,128px)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+footer.site .brand-name{color:#fff}
+footer.site .brand-name small{color:rgba(255,255,255,.5)}
+footer.site h4{color:#fff;font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;margin-bottom:18px}
+footer.site li{margin-bottom:10px;font-size:14.5px}
+footer.site li a:hover{color:var(--light-blue)}
+footer.site .tagline{margin-top:18px;font-size:14.5px;max-width:320px}
+footer.site .script{color:var(--light-blue);font-size:38px;margin-top:20px;display:block}
+.foot-bottom{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-top:56px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);font-size:13px;color:rgba(255,255,255,.5)}
+
+/* mobile action bar */
+.mbar{display:none}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+
+/* ================= responsive ================= */
+@media (max-width:1180px){
+  .nav-links{display:none}
+  .burger{display:inline-flex}
+  .nav-cta .btn-ghost{display:none}
+  .mobile-menu{position:fixed;inset:76px 0 auto 0;z-index:49;background:var(--white);border-bottom:1px solid var(--rule);padding:12px var(--gutter) 24px;box-shadow:var(--shadow)}
+  .mobile-menu.open{display:block}
+  .mobile-menu a{display:block;padding:14px 4px;font-weight:600;font-size:17px;border-bottom:1px solid var(--rule)}
+  .mobile-menu .btn{width:100%;margin-top:16px}
+  .treat-grid,.perks{grid-template-columns:1fr 1fr}
+  .course-grid{grid-template-columns:1fr 1fr}
+  .fc-1{left:-16px}.fc-2{right:-12px}
+}
+@media (max-width:900px){
+  .hero .wrap,.handson,.about,.contact,.faq-wrap,.online-head,.insta,.cta-band,.visit{grid-template-columns:1fr}
+  .hero-visual{justify-self:center;max-width:420px;margin-top:20px}
+  .worlds{grid-template-columns:1fr}
+  .world{min-height:440px}
+  .featured{grid-template-columns:1fr}
+  .featured-media{min-height:280px}
+  .featured-media::after{background:linear-gradient(180deg,rgba(32,50,56,0) 60%,rgba(32,50,56,1))}
+  .stats-card{grid-template-columns:1fr 1fr}
+  .stat:nth-child(3)::before{display:none}
+  .stat:nth-child(n+3){border-top:1px solid var(--rule)}
+  .filters{justify-self:start}
+  .faq-side{position:static}
+  .about-photo{max-width:440px}
+  .quotes{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{padding-bottom:76px}
+  .nav .wrap{height:68px}
+  .mobile-menu{inset:68px 0 auto 0}
+  .nav-cta .btn-primary{display:none}
+  .brand-mark{width:38px;height:38px}
+  .paths{grid-template-columns:1fr}
+  .treat-grid,.perks,.course-grid,.creds,.fgrid{grid-template-columns:1fr}
+  .collage .c1{aspect-ratio:9/16}
+  .fc-1{left:-6px;top:16px}
+  .fc-2{right:-6px}
+  .float-card{padding:10px 12px}
+  .float-card b{font-size:17px}
+  .hero-script{left:0;font-size:38px;bottom:-28px}
+  .stat{padding:22px 18px}
+  .insta-grid{grid-template-columns:repeat(3,1fr)}
+  .insta-grid a:nth-child(n+7){display:none}
+  .about-photo .sig{right:8px}
+  .loc-badge{left:8px}
+  details p{padding-right:0}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid > div:first-child{grid-column:1/-1}
+  .wl-form .row{flex-direction:column;border-radius:var(--r-lg)}
+  .wl-form .row .btn{width:100%}
+  .hide-sm{display:none}
+  .mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid var(--rule)}
+  .mbar .btn{height:48px;font-size:14.5px;padding:0 12px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- reusable icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tooth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3C5 3 3.5 5 3.5 7.6c0 2.2.8 3.6 1.5 5.4.7 1.9.9 4.3 1.4 6.2.3 1.2.9 1.8 1.6 1.8 1.1 0 1.4-1.2 1.7-2.7.3-1.6.7-3.6 2.3-3.6s2 2 2.3 3.6c.3 1.5.6 2.7 1.7 2.7.7 0 1.3-.6 1.6-1.8.5-1.9.7-4.3 1.4-6.2.7-1.8 1.5-3.2 1.5-5.4C20.5 5 19 3 16.5 3c-1.9 0-2.8 1-4.5 1S9.4 3 7.5 3Z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5 12 5l10 4.5-10 4.5L2 9.5Z"/><path d="M6 11.5V16c0 1.3 2.7 3 6 3s6-1.7 6-3v-4.5"/><path d="M22 9.5V15"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="m8 12.3 2.7 2.7L16 9.6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.6-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="13" height="12" rx="2.5"/><path d="m15.5 10.5 6-3.5v10l-6-3.5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14 -1.5 7 5-2.5 5 2.5-1.5-7"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.5 3.3-5.5 6.5-5.5s5.9 2 6.5 5.5"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.8c2 .7 3.3 2.5 3.6 5.2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3.5h3.2l1.6 4.2-2.1 1.4a11 11 0 0 0 5.2 5.2l1.4-2.1 4.2 1.6V17a2.5 2.5 0 0 1-2.7 2.5C9.4 19 5 14.6 4.5 6.2A2.5 2.5 0 0 1 5 3.5Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.2A8.5 8.5 0 1 1 20.5 11.5Z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5.5A1.5 1.5 0 0 1 5.5 4H8M16 4h2.5A1.5 1.5 0 0 1 20 5.5V8M20 16v2.5a1.5 1.5 0 0 1-1.5 1.5H16M8 20H5.5A1.5 1.5 0 0 1 4 18.5V16"/><path d="M4 12h16"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
+    <symbol id="i-bone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6M9.5 5.5h5"/><path d="M8.5 12h7l-1 9h-5l-1-9Z"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 1.4 2.4 2 4 2s3-.6 4-2"/><path d="M9 9.5h.01M15 9.5h.01" stroke-width="2.6"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+    <symbol id="i-infinity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 12c-2-2.7-3.6-4-5.5-4a4 4 0 0 0 0 8c1.9 0 3.5-1.3 5.5-4Zm0 0c2 2.7 3.6 4 5.5 4a4 4 0 0 0 0-8c-1.9 0-3.5 1.3-5.5 4Z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  </defs>
+</svg>
+
+<div class="announce">
+  New: Online implantology courses<span class="hide-sm"> with Dr. Tarun are launching soon. Founding-batch pricing for early sign-ups</span>.
+  <a href="#waitlist">Join the waitlist →</a>
+</div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="brand" aria-label="Dr. Tarun Kumar — home">
+      <span class="brand-mark"><svg><use href="#i-tooth"/></svg></span>
+      <span class="brand-name">Dr. Tarun Kumar<small>Implantology</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#patients">For patients</a>
+      <a href="#academy">Hands-on courses</a>
+      <a href="#online">Online academy<span class="new">NEW</span></a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#online" class="btn btn-ghost btn-sm">Browse courses</a>
+      <a href="#contact" class="btn btn-primary btn-sm" data-mode="patient">Book consultation</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mmenu"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mmenu">
+  <a href="#patients">For patients</a>
+  <a href="#academy">Hands-on courses</a>
+  <a href="#online">Online academy</a>
+  <a href="#about">About</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact" class="btn btn-primary" data-mode="patient">Book a consultation</a>
+</div>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="hero-tags rv">
+        <span class="pill">MDS · Board-certified Diplomate</span>
+        <span class="pill accent"><span class="dot"></span>Professor &amp; HOD, Implantology</span>
+      </div>
+      <h1 class="rv d1">Implants for patients.<br><span class="hl">Mastery</span> for dentists.</h1>
+      <p class="hero-sub rv d2">Prof. Dr. Tarun Kumar has spent 22 years placing implants and teaching the procedure to dentists on three continents. Now the clinic, the hands-on courses and a new online academy all live in one place.</p>
+
+      <div class="paths rv d3">
+        <a href="#patients" class="path patient">
+          <span class="ic"><svg><use href="#i-tooth"/></svg></span>
+          <small>I'm a patient</small>
+          <strong>Fix missing or failing teeth</strong>
+          <span class="go"><svg><use href="#i-arrow"/></svg></span>
+        </a>
+        <a href="#online" class="path dentist">
+          <span class="ic"><svg><use href="#i-cap"/></svg></span>
+          <small>I'm a dentist</small>
+          <strong>Learn implantology with Dr. Tarun</strong>
+          <span class="go"><svg><use href="#i-arrow"/></svg></span>
+        </a>
       </div>
 
-      <div class="slider-item" style="background-image: url('images/bg_2.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center" data-scrollax-parent="true">
-            <div class="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Modern Achieve Your Desired Perfect Smile</h1>
-              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="#" class="btn btn-primary px-4 py-3">Make an Appointment</a></p>
-            </div>
-          </div>
+      <div class="trust-row rv d3">
+        <div class="avatars" aria-hidden="true">
+          <span style="background:#167D8D">RN</span><span style="background:#F0B67F;color:#3b2410">SK</span><span style="background:#203238">AD</span><span style="background:#5BB3C0">+</span>
+        </div>
+        <p><span class="stars">★★★★★</span><br><strong>6,700+ followers</strong> learn from his cases on Instagram</p>
+      </div>
+    </div>
+
+    <div class="hero-visual rv d2">
+      <div class="hero-frame">
+        <video autoplay muted loop playsinline preload="metadata" poster="media/lecture-poster.jpg" aria-label="Dr. Tarun Kumar teaching an implant course">
+          <source src="media/lecture.mp4" type="video/mp4">
+        </video>
+        <div class="hero-caption">
+          <span class="pill dark"><span class="dot live"></span>Teaching in Cairns, Australia</span>
+          <p>Hands-on implant course, June 2026<span>Lecture, live demonstration and supervised practice</span></p>
         </div>
       </div>
-    </section>
-
-    <section class="ftco-intro">
-    	<div class="container">
-    		<div class="row no-gutters">
-    			<div class="col-md-3 color-1 p-4">
-    				<h3 class="mb-4">Emergency Cases</h3>
-    				<p>A small river named Duden flows by their place and supplies</p>
-    				<span class="phone-number">+ (123) 456 7890</span>
-    			</div>
-    			<div class="col-md-3 color-2 p-4">
-    				<h3 class="mb-4">Opening Hours</h3>
-    				<p class="openinghours d-flex">
-    					<span>Monday - Friday</span>
-    					<span>8:00 - 19:00</span>
-    				</p>
-    				<p class="openinghours d-flex">
-    					<span>Saturday</span>
-    					<span>10:00 - 17:00</span>
-    				</p>
-    				<p class="openinghours d-flex">
-    					<span>Sunday</span>
-    					<span>10:00 - 16:00</span>
-    				</p>
-    			</div>
-    			<div class="col-md-6 color-3 p-4">
-    				<h3 class="mb-2">Make an Appointment</h3>
-    				<form action="#" class="appointment-form">
-	            <div class="row">
-	            	<div class="col-sm-4">
-	                <div class="form-group">
-			              <div class="select-wrap">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                      	<option value="">Department</option>
-                        <option value="">Teeth Whitening</option>
-                        <option value="">Teeth CLeaning</option>
-                        <option value="">Quality Brackets</option>
-                        <option value="">Modern Anesthetic</option>
-                      </select>
-                    </div>
-			            </div>
-	              </div>
-	              <div class="col-sm-4">
-	                <div class="form-group">
-	                	<div class="icon"><span class="icon-user"></span></div>
-			              <input type="text" class="form-control" id="appointment_name" placeholder="Name">
-			            </div>
-	              </div>
-	              <div class="col-sm-4">
-	                <div class="form-group">
-	                	<div class="icon"><span class="icon-paper-plane"></span></div>
-			              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
-			            </div>
-	              </div>
-	            </div>
-	            <div class="row">
-	              <div class="col-sm-4">
-	                <div class="form-group">
-	                	<div class="icon"><span class="ion-ios-calendar"></span></div>
-	                  <input type="text" class="form-control appointment_date" placeholder="Date">
-	                </div>    
-	              </div>
-	              <div class="col-sm-4">
-	                <div class="form-group">
-	                	<div class="icon"><span class="ion-ios-clock"></span></div>
-	                  <input type="text" class="form-control appointment_time" placeholder="Time">
-	                </div>
-	              </div>
-	              <div class="col-sm-4">
-	                <div class="form-group">
-	                	<div class="icon"><span class="icon-phone2"></span></div>
-	                  <input type="text" class="form-control" id="phone" placeholder="Phone">
-	                </div>
-	              </div>
-	            </div>
-	            
-	            <div class="form-group">
-	              <input type="submit" value="Make an Appointment" class="btn btn-primary">
-	            </div>
-	          </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-  
-    <section class="ftco-section ftco-services">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Our Service Keeps you Smile</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tooth-1"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Teeth Whitening</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-dental-care"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Teeth Cleaning</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-tooth-with-braces"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Quality Brackets</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-anesthesia"></span>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Modern Anesthetic</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
+      <div class="float-card fc-1">
+        <span class="ic"><svg><use href="#i-tooth"/></svg></span>
+        <div><b data-count="22" data-suffix="+">22+</b><small>years placing<br>implants</small></div>
       </div>
-      <div class="container-wrap mt-5">
-      	<div class="row d-flex no-gutters">
-      		<div class="col-md-6 img" style="background-image: url(images/about-2.jpg);">
-      		</div>
-      		<div class="col-md-6 d-flex">
-      			<div class="about-wrap">
-      				<div class="heading-section heading-section-white mb-5 ftco-animate">
-		            <h2 class="mb-2">Dentacare with a personal touch</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		          </div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>Well Experience Dentist</h3>
-	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-      					</div>
-      				</div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>High Technology Facilities</h3>
-	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-      					</div>
-      				</div>
-      				<div class="list-services d-flex ftco-animate">
-      					<div class="icon d-flex justify-content-center align-items-center">
-      						<span class="icon-check2"></span>
-      					</div>
-      					<div class="text">
-	      					<h3>Comfortable Clinics</h3>
-	      					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-      					</div>
-      				</div>
-      			</div>
-      		</div>
-      	</div>
+      <div class="float-card fc-2">
+        <span class="ic"><svg><use href="#i-users"/></svg></span>
+        <div><b>3</b><small>continents<br>taught on</small></div>
       </div>
-    </section>
+      <span class="hero-script script" aria-hidden="true">teeth that hold</span>
+    </div>
+  </div>
+</section>
 
-
-    <section class="ftco-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-3">Meet Our Experience Dentist</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_5.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Tom Smith</a></h3>
-      					<span class="position">Dentist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-	        				<ul class="ftco-social">
-			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-			            </ul>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_6.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Mark Wilson</a></h3>
-      					<span class="position">Dentist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-	        				<ul class="ftco-social">
-			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-			            </ul>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_7.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Patrick Jacobson</a></h3>
-      					<span class="position">Dentist</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-	        				<ul class="ftco-social">
-			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-			            </ul>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-3 col-md-6 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(images/person_8.jpg);"></div>
-      				<div class="info text-center">
-      					<h3><a href="teacher-single.html">Ivan Dorchsner</a></h3>
-      					<span class="position">System Analyst</span>
-      					<div class="text">
-	        				<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-	        				<ul class="ftco-social">
-			              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-			              <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-			            </ul>
-	        			</div>
-      				</div>
-        		</div>
-        	</div>
-        </div>
-        <div class="row  mt-5 justify-conten-center">
-        	<div class="col-md-8 ftco-animate">
-        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero accusantium sunt sit aliquam ipsum molestias autem perferendis, incidunt cumque necessitatibus cum amet cupiditate, ut accusamus. Animi, quo. Laboriosam, laborum.</p>
-        	</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
-    	<div class="container">
-    		<div class="row d-flex align-items-center">
-    			<div class="col-md-3 aside-stretch py-5">
-    				<div class=" heading-section heading-section-white ftco-animate pr-md-4">
-	            <h2 class="mb-3">Achievements</h2>
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	          </div>
-    			</div>
-    			<div class="col-md-9 py-5 pl-md-5">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number" data-number="14">0</strong>
-		                <span>Years of Experience</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number" data-number="4500">0</strong>
-		                <span>Qualified Dentist</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number" data-number="4200">0</strong>
-		                <span>Happy Smiling Customer</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		              <div class="text">
-		                <strong class="number" data-number="320">0</strong>
-		                <span>Patients Per Year</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div>
-	      </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-3">Our Best Pricing</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-          </div>
-        </div>
-    		<div class="row">
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Basic</h3>
-	        			<p><span class="price">$24.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
-        		</div>
-        	</div>
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Standard</h3>
-	        			<p><span class="price">$34.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
-        		</div>
-        	</div>
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry active pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Premium</h3>
-	        			<p><span class="price">$54.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
-        		</div>
-        	</div>
-        	<div class="col-md-3 ftco-animate">
-        		<div class="pricing-entry pb-5 text-center">
-        			<div>
-	        			<h3 class="mb-4">Platinum</h3>
-	        			<p><span class="price">$89.50</span> <span class="per">/ session</span></p>
-	        		</div>
-        			<ul>
-        				<li>Diagnostic Services</li>
-								<li>Professional Consultation</li>
-								<li>Tooth Implants</li>
-								<li>Surgical Extractions</li>
-								<li>Teeth Whitening</li>
-        			</ul>
-        			<p class="button text-center"><a href="#" class="btn btn-primary btn-outline-primary px-4 py-3">Order now</a></p>
-        		</div>
-        	</div>
-        </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-8">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group d-flex">
-                      <input type="text" class="form-control" placeholder="Enter email address">
-                      <input type="submit" value="Subscribe" class="submit px-3">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		<section class="ftco-section testimony-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Testimony</h2>
-            <span class="subheading">Our Happy Customer Says</span>
-          </div>
-        </div>
-        <div class="row justify-content-center ftco-animate">
-          <div class="col-md-8">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Marketing Manager</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Interface Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">UI Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text text-center">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">System Analytics</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		<section class="ftco-gallery">
-    	<div class="container-wrap">
-    		<div class="row no-gutters">
-					<div class="col-md-3 ftco-animate">
-						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class="icon-search"></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class="icon-search"></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class="icon-search"></span>
-    					</div>
-						</a>
-					</div>
-					<div class="col-md-3 ftco-animate">
-						<a href="#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
-							<div class="icon mb-4 d-flex align-items-center justify-content-center">
-    						<span class="icon-search"></span>
-    					</div>
-						</a>
-					</div>
-        </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-2">Latest Blog</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text d-flex py-4">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 20, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="100">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text d-flex py-4">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 20, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-	              </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="200">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text d-flex py-4">
-                <div class="meta mb-3">
-                  <div><a href="#">Sep. 20, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-	              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-		<section class="ftco-quote">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6 pr-md-5 aside-stretch py-5 choose">
-    				<div class="heading-section heading-section-white mb-5 ftco-animate">
-	            <h2 class="mb-2">DentaCare Procedure &amp; High Quality Services</h2>
-	          </div>
-	          <div class="ftco-animate">
-	          	<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. Because there were thousands of bad Commas, wild Question Marks and devious Semikoli</p>
-	          	<ul class="un-styled my-5">
-	          		<li><span class="icon-check"></span>Consectetur adipisicing elit</li>
-	          		<li><span class="icon-check"></span>Adipisci repellat accusamus</li>
-	          		<li><span class="icon-check"></span>Tempore reprehenderit vitae</li>
-	          	</ul>
-	          </div>
-    			</div>
-    			<div class="col-md-6 py-5 pl-md-5">
-    				<div class="heading-section mb-5 ftco-animate">
-	            <h2 class="mb-2">Get a Free Quote</h2>
-	          </div>
-	          <form action="#" class="ftco-animate">
-	          	<div class="row">
-	          		<div class="col-md-6">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Full Name">
-		              </div>
-	              </div>
-	              <div class="col-md-6">
-		              <div class="form-group">
-		                <input type="text" class="form-control" placeholder="Email">
-		              </div>
-	              </div>
-	              <div class="col-md-6">
-	              	<div class="form-group">
-		                <input type="text" class="form-control" placeholder="Phone">
-		              </div>
-		            </div>
-	              <div class="col-md-6">
-	              	<div class="form-group">
-		                <input type="text" class="form-control" placeholder="Website">
-		              </div>
-		            </div>
-		            <div class="col-md-12">
-		              <div class="form-group">
-		                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-		              </div>
-		            </div>
-		            <div class="col-md-12">
-		              <div class="form-group">
-		                <input type="submit" value="Get a Quote" class="btn btn-primary py-3 px-5">
-		              </div>
-	              </div>
-              </div>
-            </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-		
-		<div id="map"></div>
-
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md-3">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">DentaCare.</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft ">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Quick Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Features</a></li>
-                <li><a href="#" class="py-2 d-block">Projects</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4 pr-md-4">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-4 d-flex">
-                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                <div class="text">
-                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                  <div class="meta">
-                    <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Office</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Pixxydev can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://pixxydev.com" target="_blank">Pixxydev</a>
-  <!-- Link back to Pixxydev can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-  
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalRequestLabel">Make an Appointment</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="#">
-            <div class="form-group">
-              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
-            </div>
-            <div class="form-group">
-              <!-- <label for="appointment_email" class="text-black">Email</label> -->
-              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_date" class="text-black">Date</label> -->
-                  <input type="text" class="form-control appointment_date" placeholder="Date">
-                </div>    
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                  <input type="text" class="form-control appointment_time" placeholder="Time">
-                </div>
-              </div>
-            </div>
-            
-
-            <div class="form-group">
-              <!-- <label for="appointment_message" class="text-black">Message</label> -->
-              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-              <input type="submit" value="Make an Appointment" class="btn btn-primary">
-            </div>
-          </form>
-        </div>
-        
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-card rv">
+      <div class="stat"><b data-count="22" data-suffix="+">0</b><span>years in implant dentistry</span></div>
+      <div class="stat"><b data-count="6500" data-suffix="+" data-format="k">0</b><span>implants placed</span></div>
+      <div class="stat"><b data-count="1400" data-suffix="+" data-format="k">0</b><span>dentists trained</span></div>
+      <div class="stat"><b data-count="24" data-suffix="h">0</b><span>from surgery to fixed teeth</span></div>
+    </div>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>ICOI Diplomate</span><span>ITI Member</span><span>AAID</span><span>Zygomatic &amp; Pterygoid</span><span>CBCT-guided planning</span><span>UniCamillus, Rome</span><span>Same-day full arch</span><span>International faculty</span>
+        <span>ICOI Diplomate</span><span>ITI Member</span><span>AAID</span><span>Zygomatic &amp; Pterygoid</span><span>CBCT-guided planning</span><span>UniCamillus, Rome</span><span>Same-day full arch</span><span>International faculty</span>
       </div>
     </div>
   </div>
+</section>
 
+<!-- ================= TWO WORLDS ================= -->
+<section class="section" style="padding-bottom:0">
+  <div class="wrap">
+    <div class="head center rv">
+      <span class="eyebrow center">One surgeon, two practices</span>
+      <h2 class="h2">The same standard in the <em>chair</em> and the <em>classroom</em>.</h2>
+      <p class="lede">Every protocol he teaches is one he uses on his own patients the same week. That is what makes the treatment predictable and the teaching honest.</p>
+    </div>
+    <div class="worlds">
+      <article class="world clinic rv">
+        <img src="media/instruments.jpg" alt="Implant surgical kit laid out before a procedure" loading="lazy">
+        <span class="pill dark">The clinic · Davangere</span>
+        <h3>Implant dentistry &amp; full-mouth rehabilitation</h3>
+        <p>From one missing tooth to a full arch fitted in a day, planned on a 3D scan and placed by a specialist.</p>
+        <ul><li>Single implants</li><li>All-on-4</li><li>Zygomatic</li><li>Full-mouth rehab</li></ul>
+        <a href="#patients" class="btn btn-ghost">Explore treatments <svg><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="world academy rv d1">
+        <img src="media/handson-2.jpg" alt="Dentist practising implant placement on a model during a hands-on course" loading="lazy">
+        <span class="pill dark">The academy · In person &amp; online</span>
+        <h3>Implant courses for dentists, at every level</h3>
+        <p>Hands-on courses around the world, plus self-paced online programs built from real surgical footage.</p>
+        <ul><li>Hands-on workshops</li><li>Online courses</li><li>Live case reviews</li><li>Mentoring</li></ul>
+        <a href="#online" class="btn btn-accent">See courses <svg><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
+<!-- ================= PATIENTS ================= -->
+<section class="section" id="patients">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow">For patients</span>
+        <h2 class="h2">Fixed teeth that look and feel <em>like yours</em>.</h2>
+        <p class="lede">Four routes cover almost every case. Which one is right depends on how much healthy bone is left, and the scan answers that on your first visit.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary" data-mode="patient">Book a consultation <svg><use href="#i-arrow"/></svg></a>
+    </div>
+
+    <div class="treat-grid">
+      <article class="treat rv">
+        <span class="num">01</span>
+        <span class="ic"><svg><use href="#i-tooth"/></svg></span>
+        <h3>Single tooth implant</h3>
+        <p>One titanium root and one crown, matched to the teeth beside it. Neighbouring teeth are left untouched.</p>
+        <div class="time"><span>Timeline</span><b>3–4 months</b></div>
+      </article>
+      <article class="treat rv d1">
+        <span class="num">02</span>
+        <span class="ic"><svg><use href="#i-smile"/></svg></span>
+        <h3>All-on-4: teeth in a day</h3>
+        <p>A full arch of fixed teeth on four implants, placed and loaded the same day. You walk out with teeth, not a denture.</p>
+        <div class="time"><span>Timeline</span><b>24 hours</b></div>
+      </article>
+      <article class="treat rv d2">
+        <span class="num">03</span>
+        <span class="ic"><svg><use href="#i-bone"/></svg></span>
+        <h3>Zygomatic &amp; complex cases</h3>
+        <p>For severe bone loss where implants were refused elsewhere. Anchorage comes from the cheekbone instead.</p>
+        <div class="time"><span>Timeline</span><b>1–2 days</b></div>
+      </article>
+      <article class="treat rv d3">
+        <span class="num">04</span>
+        <span class="ic"><svg><use href="#i-layers"/></svg></span>
+        <h3>Full-mouth rehabilitation</h3>
+        <p>Rebuilding bite, function and appearance together after years of wear, gum disease or failed work.</p>
+        <div class="time"><span>Timeline</span><b>Staged</b></div>
+      </article>
+    </div>
+
+    <div class="visit rv">
+      <div class="visit-media">
+        <img src="media/instruments-2.jpg" alt="Sterile surgical instruments prepared for implant surgery" loading="lazy">
+        <span class="pill tag" style="background:#fff"><svg width="14" height="14"><use href="#i-scan"/></svg>CBCT-planned, every case</span>
+      </div>
+      <div>
+        <span class="eyebrow">Your visit</span>
+        <h3 style="margin-top:14px">No surprises, no pressure at the chair.</h3>
+        <div class="steps">
+          <div class="step"><i>1</i><div><b>Scan &amp; assessment</b><span>A 3D CBCT scan shows exactly how much bone is available and where implants can safely go.</span></div></div>
+          <div class="step"><i>2</i><div><b>Written plan</b><span>Options, timelines and costs in writing, including the option of doing nothing.</span></div></div>
+          <div class="step"><i>3</i><div><b>Surgery day</b><span>Local anaesthetic, with sedation if you want it. Full arches get fixed teeth the same day.</span></div></div>
+          <div class="step"><i>4</i><div><b>Healing &amp; lifelong review</b><span>Set reviews while the bone integrates, then your final teeth. Aftercare continues for life.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HANDS-ON ACADEMY ================= -->
+<section class="section academy-sec" id="academy">
+  <div class="wrap">
+    <div class="handson">
+      <div class="collage rv">
+        <figure class="c1">
+          <video autoplay muted loop playsinline preload="metadata" poster="media/handson-poster.jpg" aria-label="Participants practising implant placement at a hands-on course">
+            <source src="media/handson.mp4" type="video/mp4">
+          </video>
+        </figure>
+        <figure class="c2"><img src="media/lecture-slide.jpg" alt="Dr. Tarun presenting a clinical case on screen" loading="lazy"></figure>
+        <figure class="c3"><img src="media/handson-3.jpg" alt="Close-up of hands placing an implant on a training model" loading="lazy"></figure>
+        <div class="loc-badge"><svg><use href="#i-pin"/></svg><div><b>Cairns, Australia</b>June 2026 cohort</div></div>
+      </div>
+      <div>
+        <span class="eyebrow rv">Hands-on courses</span>
+        <h2 class="h2 rv d1">Learn it at the bench, <em>not from slides</em>.</h2>
+        <p class="lede rv d2">Small-group courses for general dentists and postgraduates, built around live surgery and real decision-making rather than sponsored product lectures.</p>
+        <ul class="checks rv d2">
+          <li><svg><use href="#i-check"/></svg><span><b>Live surgery observation</b> with narrated decision points</span></li>
+          <li><svg><use href="#i-check"/></svg><span><b>Hands-on placement</b> on models, then supervised on patients</span></li>
+          <li><svg><use href="#i-check"/></svg><span><b>Case-planning support</b> after the course, not just during it</span></li>
+          <li><svg><use href="#i-check"/></svg><span><b>Full-arch &amp; complex anatomy</b> modules for experienced clinicians</span></li>
+        </ul>
+        <div class="actions rv d3">
+          <a href="#contact" class="btn btn-primary" data-mode="dentist">Ask about the next course <svg><use href="#i-arrow"/></svg></a>
+          <a href="#online" class="btn btn-ghost">Can't travel? Learn online</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ONLINE ACADEMY ================= -->
+<section class="section" id="online">
+  <div class="wrap">
+    <div class="online-head">
+      <div class="rv">
+        <span class="eyebrow">Online academy · New</span>
+        <h2 class="h2">Dr. Tarun's operatory, <em>on your screen</em>.</h2>
+        <p class="lede">Self-paced courses filmed in real surgeries and real courses. Watch on any device, rewind the hard parts, and bring your own cases to live review sessions.</p>
+      </div>
+      <div class="filters rv d1" role="group" aria-label="Filter courses">
+        <button aria-pressed="true" data-filter="all">All</button>
+        <button aria-pressed="false" data-filter="beginner">Beginner</button>
+        <button aria-pressed="false" data-filter="advanced">Advanced</button>
+        <button aria-pressed="false" data-filter="live">Live</button>
+      </div>
+    </div>
+
+    <!-- featured -->
+    <article class="featured rv">
+      <div class="featured-media">
+        <video muted loop playsinline preload="none" poster="media/instruments.jpg" id="featVid" aria-label="Course preview: implant surgical kit">
+          <source src="media/instruments.mp4" type="video/mp4">
+        </video>
+        <button class="play" id="featPlay" aria-label="Play course preview"><i><svg><use href="#i-play"/></svg></i>Watch preview</button>
+      </div>
+      <div class="featured-body">
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <span class="pill accent">Flagship · Founding batch</span>
+          <span class="pill dark">Beginner → Intermediate</span>
+        </div>
+        <h3>Implant Foundations: from CBCT to crown</h3>
+        <p>The complete single-implant workflow Dr. Tarun teaches in person, broken into short, rewatchable lessons.</p>
+        <div class="meta">
+          <span><svg><use href="#i-video"/></svg>42 lessons</span>
+          <span><svg><use href="#i-clock"/></svg>11 hrs of video</span>
+          <span><svg><use href="#i-award"/></svg>Certificate</span>
+          <span><svg><use href="#i-infinity"/></svg>Lifetime access</span>
+        </div>
+        <ul class="modules">
+          <li>1 · Case selection &amp; CBCT reading <span>6 lessons</span></li>
+          <li>2 · Flap design, osteotomy &amp; placement <span>12 lessons</span></li>
+          <li>3 · Suturing &amp; soft-tissue handling <span>8 lessons</span></li>
+          <li>4 · Loading, prosthetics &amp; complications <span>16 lessons</span></li>
+        </ul>
+        <div class="price-row">
+          <div class="price"><small>Founding-batch price</small><b>₹24,999</b><s>₹34,999</s></div>
+          <a href="#waitlist" class="btn btn-accent">Reserve a seat <svg><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <div class="course-grid" id="courses">
+      <article class="course rv" data-tags="advanced">
+        <div class="course-thumb"><img src="media/lecture-slide.jpg" alt="" loading="lazy"><span class="pill">Self-paced</span><span class="lvl">Advanced</span></div>
+        <div class="course-body">
+          <h3>All-on-4 &amp; immediate loading masterclass</h3>
+          <p>Full-arch planning, tilted implants, and converting a denture to a fixed provisional the same day.</p>
+          <div class="course-meta"><span><svg><use href="#i-video"/></svg>28 lessons</span><span><svg><use href="#i-clock"/></svg>8 hrs</span></div>
+          <div class="course-foot"><b>₹29,999</b><a href="#waitlist" class="link-arrow">Join waitlist <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+      <article class="course rv d1" data-tags="advanced">
+        <div class="course-thumb"><img src="media/instruments-2.jpg" alt="" loading="lazy"><span class="pill">Self-paced</span><span class="lvl">Advanced</span></div>
+        <div class="course-body">
+          <h3>Zygomatic &amp; pterygoid implants</h3>
+          <p>Anatomy, angulation and step-by-step surgical footage for the severely resorbed maxilla.</p>
+          <div class="course-meta"><span><svg><use href="#i-video"/></svg>18 lessons</span><span><svg><use href="#i-clock"/></svg>6 hrs</span></div>
+          <div class="course-foot"><b>₹34,999</b><a href="#waitlist" class="link-arrow">Join waitlist <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+      <article class="course rv d2" data-tags="beginner">
+        <div class="course-thumb"><img src="media/suturing.jpg" alt="" loading="lazy"><span class="pill">Self-paced</span><span class="lvl">Beginner</span></div>
+        <div class="course-body">
+          <h3>Suturing &amp; flap techniques</h3>
+          <p>Practise on a pad at home: needle handling, knot types and closures for implant and perio surgery.</p>
+          <div class="course-meta"><span><svg><use href="#i-video"/></svg>14 lessons</span><span><svg><use href="#i-clock"/></svg>3 hrs</span></div>
+          <div class="course-foot"><b>₹7,999</b><a href="#waitlist" class="link-arrow">Join waitlist <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+      <article class="course rv" data-tags="beginner">
+        <div class="course-thumb"><img src="media/handson-1.jpg" alt="" loading="lazy"><span class="pill">Self-paced</span><span class="lvl">Beginner</span></div>
+        <div class="course-body">
+          <h3>CBCT reading for implant planning</h3>
+          <p>Read a scan with confidence: bone volume, vital structures, and choosing implant size and position.</p>
+          <div class="course-meta"><span><svg><use href="#i-video"/></svg>10 lessons</span><span><svg><use href="#i-clock"/></svg>2.5 hrs</span></div>
+          <div class="course-foot"><b>₹5,999</b><a href="#waitlist" class="link-arrow">Join waitlist <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+      <article class="course rv d1" data-tags="live">
+        <div class="course-thumb"><img src="media/lecture.jpg" alt="" loading="lazy" style="object-position:50% 25%"><span class="pill"><span class="dot live"></span>Live monthly</span><span class="lvl">All levels</span></div>
+        <div class="course-body">
+          <h3>Case Planning Clinic</h3>
+          <p>A monthly live session. Submit your own CBCT and Dr. Tarun plans it with you, in front of the group.</p>
+          <div class="course-meta"><span><svg><use href="#i-cal"/></svg>1 session / month</span><span><svg><use href="#i-users"/></svg>Max 40</span></div>
+          <div class="course-foot"><b>₹2,499<small>/month</small></b><a href="#waitlist" class="link-arrow">Join waitlist <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+      <article class="course rv d2" data-tags="live advanced">
+        <div class="course-thumb"><img src="media/handson-2.jpg" alt="" loading="lazy"><span class="pill">Hybrid</span><span class="lvl">Intermediate</span></div>
+        <div class="course-body">
+          <h3>1:1 mentorship program</h3>
+          <p>Online modules plus private case reviews and an in-clinic surgical day with Dr. Tarun.</p>
+          <div class="course-meta"><span><svg><use href="#i-cal"/></svg>3 months</span><span><svg><use href="#i-users"/></svg>By application</span></div>
+          <div class="course-foot"><b>On request</b><a href="#contact" class="link-arrow" data-mode="dentist">Apply <svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="perks">
+      <div class="perk rv"><span class="ic"><svg><use href="#i-video"/></svg></span><b>Real surgical footage</b><span>Filmed in theatre with narrated decision points, not animations.</span></div>
+      <div class="perk rv d1"><span class="ic"><svg><use href="#i-file"/></svg></span><b>Protocols to keep</b><span>Downloadable checklists, consent templates and drill sequences.</span></div>
+      <div class="perk rv d2"><span class="ic"><svg><use href="#i-award"/></svg></span><b>Certificate of completion</b><span>Issued after each course assessment. Shareable and verifiable.</span></div>
+      <div class="perk rv d3"><span class="ic"><svg><use href="#i-globe"/></svg></span><b>Learn from anywhere</b><span>Phone, tablet or laptop. Pay in INR or USD.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about" style="padding-top:0">
+  <div class="wrap about">
+    <div class="about-photo rv">
+      <div class="frame"><img src="media/lecture.jpg" alt="Prof. Dr. Tarun Kumar lecturing" loading="lazy"></div>
+      <span class="sig script" aria-hidden="true">Dr. Tarun</span>
+    </div>
+    <div>
+      <span class="eyebrow rv">About Dr. Tarun</span>
+      <h2 class="h2 rv d1">Surgeon first. <em>Teacher</em> by choice.</h2>
+      <blockquote class="rv d2">"The best implant is the one the patient forgets is there. The best course is the one you use on Monday morning."</blockquote>
+      <p class="lede rv d2">An implantologist and periodontist whose practice is limited to implant dentistry and full-mouth rehabilitation. Alongside clinical work he heads implantology teaching at postgraduate level and lectures internationally on surgical technique.</p>
+      <div class="creds">
+        <div class="cred rv"><span class="ic"><svg><use href="#i-cap"/></svg></span><div><b>MDS</b><span>Periodontology &amp; Implantology, Rajiv Gandhi University</span></div></div>
+        <div class="cred rv d1"><span class="ic"><svg><use href="#i-award"/></svg></span><div><b>Board-certified Diplomate</b><span>Implant dentistry</span></div></div>
+        <div class="cred rv d2"><span class="ic"><svg><use href="#i-users"/></svg></span><div><b>Professor &amp; HOD</b><span>Implantology, postgraduate teaching</span></div></div>
+        <div class="cred rv d3"><span class="ic"><svg><use href="#i-globe"/></svg></span><div><b>Master's, UniCamillus Rome</b><span>Implant dentistry · International speaker</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="section" style="padding-top:0">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <span class="eyebrow">In their words</span>
+        <h2 class="h2">Patients and dentists, <em>both</em>.</h2>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Testimonials">
+        <button role="tab" aria-selected="true" aria-controls="q-pat" id="t-pat">Patients</button>
+        <button role="tab" aria-selected="false" aria-controls="q-den" id="t-den">Dentists</button>
+      </div>
+    </div>
+    <div class="quotes" id="q-pat" role="tabpanel" aria-labelledby="t-pat">
+      <figure class="quote rv"><span class="q">“</span><p>Two dentists had told me my upper jaw had too little bone. Dr. Tarun showed me on the scan where the anchorage would come from instead, and I had fixed teeth within two days.</p><footer><span class="av" style="background:#167D8D">RN</span><div><b>Ramesh N.</b><span>Full arch, upper · Google review</span></div></footer></figure>
+      <figure class="quote rv d1"><span class="q">“</span><p>I had the plan and the cost in writing on the first visit and was told to take it home and think about it. Nobody pushed me into anything.</p><footer><span class="av" style="background:#F0B67F;color:#3b2410">SK</span><div><b>Sushma K.</b><span>Single implant · Google review</span></div></footer></figure>
+      <figure class="quote rv d2"><span class="q">“</span><p>I wore a lower denture for eleven years and had stopped eating out because of it. Six months on I have forgotten which teeth are mine.</p><footer><span class="av" style="background:#203238">AD</span><div><b>Anil D.</b><span>All-on-4, lower · Google review</span></div></footer></figure>
+    </div>
+    <!-- SAMPLE dentist quotes: replace with real participant testimonials -->
+    <div class="quotes" id="q-den" role="tabpanel" aria-labelledby="t-den" hidden>
+      <figure class="quote"><span class="q">“</span><p>He explains why at every step, not just what. I placed my first guided implant two weeks after the course with his planning notes open beside me.</p><footer><span class="av" style="background:#5BB3C0">DR</span><div><b>Dr. Participant</b><span>General dentist · Hands-on course</span></div></footer></figure>
+      <figure class="quote"><span class="q">“</span><p>The live surgery sessions were the difference. Seeing complications handled calmly in real time taught me more than a year of webinars.</p><footer><span class="av" style="background:#167D8D">DP</span><div><b>Dr. Participant</b><span>Postgraduate · Full-arch module</span></div></footer></figure>
+      <figure class="quote"><span class="q">“</span><p>Small group, a lot of bench time, and he still answers my case questions months later. That follow-up support is rare.</p><footer><span class="av" style="background:#F0B67F;color:#3b2410">DM</span><div><b>Dr. Participant</b><span>Cairns course, 2026</span></div></footer></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INSTAGRAM ================= -->
+<section style="padding-bottom:clamp(72px,10vw,128px)">
+  <div class="wrap">
+    <div class="insta rv">
+      <div>
+        <span class="eyebrow">Follow the cases</span>
+        <h2 class="h2" style="font-size:clamp(28px,3.4vw,40px)">Weekly cases, tips and course moments.</h2>
+        <a class="handle" href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@dr.tarunkumar_implant</a>
+        <p style="color:var(--text-2);margin-top:6px;font-size:14.5px">6,700+ followers · 680+ posts</p>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" class="btn btn-ghost" style="margin-top:22px">Follow on Instagram <svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="insta-grid">
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/lecture.jpg" alt="" loading="lazy" style="object-position:50% 20%"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/instruments.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/handson-1.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/suturing.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/handson-3.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/lecture-slide.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/instruments-2.jpg" alt="" loading="lazy"></a>
+        <a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener" aria-label="Instagram post"><img src="media/handson-2.jpg" alt="" loading="lazy"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section" id="faq" style="padding-top:0">
+  <div class="wrap faq-wrap">
+    <div class="faq-side">
+      <span class="eyebrow rv">Questions</span>
+      <h2 class="h2 rv d1">Questions people <em>actually</em> ask.</h2>
+      <div class="tabs rv d2" role="tablist" aria-label="FAQ audience">
+        <button role="tab" aria-selected="true" aria-controls="faq-pat" id="ft-pat">Patients</button>
+        <button role="tab" aria-selected="false" aria-controls="faq-den" id="ft-den">Dentists &amp; courses</button>
+      </div>
+      <div class="faq-help rv d3">
+        <b>Still unsure?</b>
+        <p>Send your OPG or CBCT on WhatsApp and the clinic will tell you what is possible.</p>
+        <a href="https://wa.me/919000000000" class="link-arrow" target="_blank" rel="noopener">Message on WhatsApp <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <div class="faq-list" id="faq-pat" role="tabpanel" aria-labelledby="ft-pat">
+        <details><summary>Does it hurt?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Placement is done under local anaesthetic, so you feel pressure but not pain. Most people find the days afterwards easier than a difficult extraction. Sedation is available if you are anxious.</p></details>
+        <details><summary>How long will I be without teeth?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>For a single implant, a temporary tooth covers the gap from day one. For a full arch, fixed teeth are usually fitted the same day as surgery. You do not leave with an empty jaw.</p></details>
+        <details><summary>I was told I don't have enough bone. Is that final?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Often not. Grafting, sinus lifts, and zygomatic or pterygoid anchorage make treatment possible in jaws that have lost significant bone. A CBCT scan is the only way to know, and it takes minutes.</p></details>
+        <details><summary>How much does it cost?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>As a guide: a single implant with its crown runs ₹35,000–₹65,000. A full arch on four implants is ₹3.5–6 lakh per arch. Full-mouth rehabilitation is ₹7–12 lakh. Your written plan carries an exact, itemised figure. Instalments are available above ₹1 lakh.</p></details>
+        <details><summary>I'm travelling from another city. Can it be done in fewer visits?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Yes. Out-of-town and overseas patients are usually planned around two trips: surgery with same-day teeth, then the final fit.</p></details>
+      </div>
+      <div class="faq-list" id="faq-den" role="tabpanel" aria-labelledby="ft-den" hidden>
+        <details><summary>I've never placed an implant. Which course should I start with?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Start with Implant Foundations online. It covers case selection through to loading. Pair it with the CBCT reading course, then join a hands-on course to place under supervision.</p></details>
+        <details><summary>How long do I have access to online courses?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Self-paced courses come with lifetime access, including future updates to the same course. Live programs run for their stated duration.</p></details>
+        <details><summary>Do I get a certificate?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Yes. Each course ends with a short assessment, and you receive a certificate of completion with a verification link.</p></details>
+        <details><summary>Can I pay from outside India?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Yes. Online courses can be paid in INR or USD by card, UPI or international payment methods.</p></details>
+        <details><summary>When is the next hands-on course?<span class="pm"><svg><use href="#i-plus"/></svg></span></summary><p>Hands-on courses run several times a year in India and abroad. Join the waitlist or send an enquiry and you will hear about dates first.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WAITLIST ================= -->
+<section id="waitlist">
+  <div class="wrap">
+    <div class="cta-band rv">
+      <div style="position:relative;z-index:1">
+        <span class="eyebrow" style="color:var(--light-blue)">Online academy · Founding batch</span>
+        <h2 style="margin-top:16px">Be first in the <span class="script">classroom</span>.</h2>
+        <p>Waitlist members get founding-batch pricing, a free CBCT-reading mini-lesson, and first pick of hands-on course dates.</p>
+      </div>
+      <form class="wl-form" id="wlForm" novalidate>
+        <div class="row">
+          <label for="wlEmail" class="sr" style="position:absolute;left:-9999px">Email</label>
+          <input type="email" id="wlEmail" placeholder="Your email address" required autocomplete="email">
+          <button type="submit" class="btn btn-accent">Join waitlist</button>
+        </div>
+        <small>No spam. One email when courses open, then only course news.</small>
+        <div class="wl-ok" role="status">You're on the list. Check your inbox for the free lesson.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="wrap contact">
+    <div>
+      <span class="eyebrow rv">Get in touch</span>
+      <h2 class="h2 rv d1">Book a visit, or <em>ask about a course</em>.</h2>
+      <p class="lede rv d2">Send a few details and the team will call you back. Patients: if you already have an OPG or CBCT scan, bring it or send it on WhatsApp.</p>
+      <div class="contact-info">
+        <div class="ci rv"><span class="ic"><svg><use href="#i-pin"/></svg></span><div><small>Clinic</small><b>Implant &amp; Oral Rehabilitation Centre<br>2nd Floor, MCC B Block, P.J. Extension, Davangere 577002</b></div></div>
+        <div class="ci rv d1"><span class="ic"><svg><use href="#i-phone"/></svg></span><div><small>Phone &amp; WhatsApp</small><b><a href="tel:+919000000000">+91 90000 00000</a></b></div></div>
+        <div class="ci rv d2"><span class="ic"><svg><use href="#i-cal"/></svg></span><div><small>Hours</small><b>Mon–Sat, 9.30am–7.30pm · Sunday by appointment</b></div></div>
+      </div>
+    </div>
+
+    <div class="form-card rv d1" id="formCard">
+      <form id="contactForm" novalidate>
+        <div class="seg" role="group" aria-label="I am a">
+          <button type="button" aria-pressed="true" data-seg="patient">I'm a patient</button>
+          <button type="button" aria-pressed="false" data-seg="dentist">I'm a dentist</button>
+        </div>
+        <div class="fgrid">
+          <div class="field"><label for="fName">Your name</label><input id="fName" required autocomplete="name"></div>
+          <div class="field"><label for="fPhone">Phone</label><input id="fPhone" type="tel" required autocomplete="tel"></div>
+          <div class="field full"><label for="fEmail">Email</label><input id="fEmail" type="email" autocomplete="email"></div>
+          <div class="field full">
+            <label for="fWhat" id="fWhatLbl">What are you looking for?</label>
+            <select id="fWhat"></select>
+          </div>
+          <div class="field full"><label for="fMsg">Anything we should know?</label><textarea id="fMsg"></textarea></div>
+        </div>
+        <button type="submit" class="btn btn-primary" id="fSubmit">Request a call back <svg><use href="#i-arrow"/></svg></button>
+        <p class="form-note">Your details are used only to respond to your enquiry.</p>
+      </form>
+      <div class="form-ok" role="status">
+        <span class="ic"><svg><use href="#i-check"/></svg></span>
+        <h3>Thank you</h3>
+        <p style="color:var(--text-2);margin-top:8px">The team will call you back within one working day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#top" class="brand"><span class="brand-mark"><svg><use href="#i-tooth"/></svg></span><span class="brand-name">Dr. Tarun Kumar<small>Implantology</small></span></a>
+        <p class="tagline">Implant dentistry for patients. Hands-on and online implant education for dentists.</p>
+        <span class="script">A healthier, happier you</span>
+      </div>
+      <div><h4>Patients</h4><ul><li><a href="#patients">Treatments</a></li><li><a href="#patients">Your visit</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact" data-mode="patient">Book consultation</a></li></ul></div>
+      <div><h4>Academy</h4><ul><li><a href="#online">Online courses</a></li><li><a href="#academy">Hands-on courses</a></li><li><a href="#waitlist">Waitlist</a></li><li><a href="#contact" data-mode="dentist">Mentorship</a></li></ul></div>
+      <div><h4>Connect</h4><ul><li><a href="https://www.instagram.com/dr.tarunkumar_implant/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://wa.me/919000000000" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="tel:+919000000000">+91 90000 00000</a></li><li>Davangere, Karnataka</li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr">2026</span> Prof. Dr. Tarun Kumar · Practice limited to implantology</span><span>Bright smiles · Healthy lives · Everyday confidence</span></div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a href="#contact" class="btn btn-primary" data-mode="patient">Book visit</a>
+  <a href="#online" class="btn btn-accent">Courses</a>
+</div>
+
+<script>
+(() => {
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  $('#yr').textContent = new Date().getFullYear();
+
+  // nav state
+  const nav = $('#nav');
+  const onScroll = () => nav.classList.toggle('scrolled', scrollY > 8);
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  // mobile menu
+  const burger = $('#burger'), mm = $('#mmenu');
+  const setMenu = open => { mm.classList.toggle('open', open); burger.setAttribute('aria-expanded', open); burger.innerHTML = `<svg><use href="#i-${open ? 'close' : 'menu'}"/></svg>`; };
+  burger.addEventListener('click', () => setMenu(!mm.classList.contains('open')));
+  $$('a', mm).forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+  // reveal
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+  $$('.rv').forEach(el => io.observe(el));
+
+  // counters
+  const fmt = (n, f) => f === 'k' ? n.toLocaleString('en-IN') : n;
+  const cio = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return; cio.unobserve(e.target);
+    const el = e.target, end = +el.dataset.count, suf = el.dataset.suffix || '', f = el.dataset.format, t0 = performance.now(), d = 1600;
+    const tick = t => { const p = Math.min((t - t0) / d, 1), v = Math.round(end * (1 - Math.pow(1 - p, 3))); el.textContent = fmt(v, f) + suf; if (p < 1) requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  }), { threshold: .6 });
+  $$('.stat [data-count]').forEach(el => cio.observe(el));
+
+  // course filters
+  $$('.filters button').forEach(b => b.addEventListener('click', () => {
+    $$('.filters button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    const f = b.dataset.filter;
+    $$('#courses .course').forEach(c => c.hidden = f !== 'all' && !c.dataset.tags.split(' ').includes(f));
+  }));
+
+  // featured preview
+  const fv = $('#featVid'), fp = $('#featPlay');
+  fp.addEventListener('click', () => {
+    if (fv.paused) { fv.play(); fp.lastChild.textContent = 'Pause preview'; fp.querySelector('use').setAttribute('href', '#i-close'); }
+    else { fv.pause(); fp.lastChild.textContent = 'Watch preview'; fp.querySelector('use').setAttribute('href', '#i-play'); }
+  });
+
+  // tab groups
+  const tabs = (ids) => ids.forEach(([tab, panel], i, all) => $('#' + tab).addEventListener('click', () => all.forEach(([t, p]) => { const on = t === tab; $('#' + t).setAttribute('aria-selected', on); $('#' + p).hidden = !on; })));
+  tabs([['t-pat', 'q-pat'], ['t-den', 'q-den']]);
+  tabs([['ft-pat', 'faq-pat'], ['ft-den', 'faq-den']]);
+
+  // contact form mode
+  const opts = {
+    patient: { label: 'What are you looking for?', btn: 'Request a call back', items: ["Not sure yet — I'd like advice", 'Single tooth implant', 'Full arch / teeth in a day', 'Complex case — told no elsewhere', 'Full-mouth rehabilitation'] },
+    dentist: { label: 'Which program interests you?', btn: 'Send course enquiry', items: ['Online course — Implant Foundations', 'Online course — All-on-4 masterclass', 'Online course — Zygomatic & pterygoid', 'Next hands-on course', 'Case Planning Clinic (live)', '1:1 mentorship', 'Invite Dr. Tarun to speak'] }
+  };
+  const setMode = m => {
+    $$('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.seg === m));
+    $('#fWhatLbl').textContent = opts[m].label;
+    $('#fWhat').innerHTML = opts[m].items.map(i => `<option>${i}</option>`).join('');
+    $('#fSubmit').firstChild.textContent = opts[m].btn + ' ';
+  };
+  $$('.seg button').forEach(b => b.addEventListener('click', () => setMode(b.dataset.seg)));
+  $$('[data-mode]').forEach(a => a.addEventListener('click', () => setMode(a.dataset.mode)));
+  setMode('patient');
+
+  // forms (front-end only — wire to backend / form service before launch)
+  $('#contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const req = [$('#fName'), $('#fPhone')]; let ok = true;
+    req.forEach(i => { const bad = !i.value.trim(); i.style.borderColor = bad ? '#E0614F' : ''; if (bad) ok = false; });
+    if (ok) $('#formCard').classList.add('done');
+  });
+  $('#wlForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const em = $('#wlEmail');
+    if (!/^\S+@\S+\.\S+$/.test(em.value)) { em.focus(); em.placeholder = 'Please enter a valid email'; em.value = ''; return; }
+    e.currentTarget.classList.add('done');
+  });
+
+  // pause offscreen autoplay videos
+  const vio = new IntersectionObserver(es => es.forEach(e => { const v = e.target; if (!v.autoplay) return; e.isIntersecting ? v.play().catch(() => {}) : v.pause(); }));
+  $$('video').forEach(v => vio.observe(v));
+})();
+</script>
+</body>
 </html>
